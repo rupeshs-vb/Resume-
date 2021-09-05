@@ -1,0 +1,175 @@
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-left: 25px;
+  min-width: 300px;
+  height: 500px;
+}
+#mainDiv {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 500px;
+  padding: 15px;
+}
+#header {
+  background-color: #3498db;
+  width: 100%;
+}
+header {
+  /* background-color: #3498db; */
+  color: white;
+  padding: 0px 5px 2px 5px;
+  min-width: fit-content;
+}
+h1 {
+  text-decoration: underline;
+  margin-bottom: 3px;
+}
+h1:hover {
+  color: #82589f;
+}
+h3 {
+  text-decoration: underline;
+  margin-top: 0px;
+  font-size: 1rem;
+  margin-bottom: -15px;
+}
+h3:hover {
+  color: #82589f;
+}
+#adresspara {
+  margin-bottom: 1px;
+}
+#email {
+  margin-bottom: 1px;
+}
+#email:hover {
+  color: #82589f;
+}
+#contact:hover {
+  color: #82589f;
+}
+#profileimg {
+  height: 200px;
+  float: right;
+  border: 3px solid #3498db; /* by this the image is fixed after hpver the image*/
+  margin-right: 30px;
+  cursor: default;
+  margin-top: 5px;
+}
+#image {
+  border: none;
+}
+#profileimg:hover {
+  border: 3px solid #82589f;
+}
+section {
+  display: flex; /*it will divide screen into two parts*/
+}
+section div {
+  padding: 2px;
+  margin: 2px;
+  border: 3px solid #3498db; /*like image it will not shake while hover*/
+  width: 100%;
+  border-radius: 10px;
+}
+section div:hover {
+  color: #82589f;
+  border: 3px solid #82589f;
+}
+span:hover {
+  color: #2ed573;
+}
+#education {
+  margin: 20px;
+  width: 100%;
+  display: flex;
+}
+table {
+  text-align: center;
+  border: 3px solid #3498db;
+  border-radius: 5px;
+}
+table:hover {
+  border: 3px solid #82589f;
+  cursor: default; /*by using this cursor is become normal for all whether it is link or not other wise some will have link cursor or some will have defualt one*/
+}
+th {
+  border: 2px solid;
+  padding: 10px 30px;
+}
+td {
+  border: 2px solid;
+  padding: 10px 30px;
+}
+h2 {
+  text-decoration: underline;
+  margin-bottom: -5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: default; /*by using this cursor is become normal for all whether it is link or not*/
+}
+a:hover {
+  color: #82589f;
+}
+th:hover {
+  color: #82589f;
+}
+td:hover {
+  color: #82589f;
+}
+#span1:hover {
+  color: #3498db;
+}
+h2:hover {
+  color: #3498db;
+}
+li:hover {
+  color: #3498db;
+}
+footer {
+  text-align: center;
+}
+footer:hover {
+  color: #3498db;
+}
+#introtag {
+  text-align: center;
+  text-decoration: none;
+  color: #3498db;
+}
+
+/* media querry */
+@media (max-width: 700px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #mainDiv {
+    padding-left: 15px;
+    width: fit-content;
+  }
+
+  th {
+    border: 2px solid;
+    padding: 1px 3px;
+  }
+  td {
+    border: 2px solid;
+    padding: 1px 3px;
+  }
+}
+@media (max-width: 400px) {
+  #profileimg {
+    margin-top: 20px;
+  }
+  #mainDiv {
+    overflow-x: auto;
+  }
+  #header {
+    background-color: #3498db;
+    width: fit-content;
+  }
+}
